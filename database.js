@@ -134,10 +134,10 @@ try {
 	function _ez40Fill(){
 			let lock = {};
 			lock.lockName = "EZ_40";
-			lock.lockData = [1,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,97];
+			lock.lockData = [2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,97];
 			lock.class = "lockData"
 			try {
-				let resp = #db.us({lockName:lock.lockName}, lock);
+				let resp = #db.us({lockName:lock.lockName}, {$set:lock});
 				return {ok:true, msg:resp};
 			} catch (e) {
 				return {ok:false, msg:"`DERROR! ` `A Something went wrong: `" + e.stack};
