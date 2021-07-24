@@ -6,7 +6,7 @@ function(c, a){ // target:#s.user.loc
 
 	/*Cracker Vars*/
 	var ez_21p = ["unlock","open","release"];
-	var prime = [1,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,97];
+	var prime = [2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,97];
 	var clr = ["red","orange","yellow","lime","green","cyan","blue","purple"];
 	var l0cket = #db.f({lockName:"l0cket_k3y_v1"}).first().lockData;
 	var dc1 = #db.f({lockName:"DATA_CHECK_V1"}).first().lockData;
@@ -293,3 +293,4 @@ function(c, a){ // target:#s.user.loc
 	return e.stack;
 }
 }
+
