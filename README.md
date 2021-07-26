@@ -6,4 +6,8 @@ Hold's every database filling stuff for T1 cracker (also some other methods I us
 
 ## t1.js
 
-Hold's every t1 lock cracker. Not efficient agains w4rns yet. Not char efficient.
+Holds every t1 lock cracker. Not efficient agains w4rns yet. Not char efficient.
+
+## t1v2.js
+
+Holds every t1 lock cracker. Not char efficient. But w4rn proof (AFAIK);
